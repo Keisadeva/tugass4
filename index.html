@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Tower of God</title>
+
+    <!-- Bootstrap 5 -->
+    <link
+        href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+        rel="stylesheet"
+    >
+
+    <style>
+        body {
+            font-family: 'Trebuchet MS', sans-serif;
+            background: #f8f9fa;
+            color: #20252b;
+        }
+
+        .logo {
+            font: bold 25px Georgia, serif;
+        }
+
+        .hero-title {
+            font: bold 52px Georgia, serif;
+        }
+
+        .hero-subtitle {
+            font: bold 52px Georgia, serif;
+            color: #12b9df;
+        }
+
+        .hero-text {
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .hero-img {
+            width: 100%;
+            height: 600px;
+            object-fit: cover;
+            border-radius: 18px;
+            box-shadow: 0 12px 25px #bbb;
+        }
+
+        .section-title {
+            font: bold 40px Georgia, serif;
+        }
+
+        .character-card {
+            border: none;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 7px 18px #ddd;
+        }
+
+        .character-card img {
+            width: 100%;
+            height: 375px;
+            object-fit: cover;
+        }
+
+        .character-card h3 {
+            font: 24px Georgia, serif;
+        }
+
+        .character-card p {
+            font-size: 17px;
+            line-height: 1.6;
+            min-height: 120px;
+        }
+
+        .btn-tower {
+            background: #10bee5;
+            color: #111;
+            border: none;
+        }
+
+        .btn-tower:hover {
+            background: #0da9cc;
+            color: #111;
+        }
+
+        .btn-daftar {
+            color: #198754;
+            border: 1px solid #198754;
+        }
+
+        .btn-daftar:hover {
+            background: #198754;
+            color: white;
+        }
+
+        @media (max-width: 768px) {
+            .hero-title,
+            .hero-subtitle {
+                font-size: 40px;
+            }
+
+            .hero-img {
+                height: 450px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+    <div class="container py-2">
+
+        <a class="navbar-brand logo" href="#">
+            TOWER OF GOD
+        </a>
+
+        <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarMenu"
+            aria-controls="navbarMenu"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+        >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarMenu">
+            <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-2">
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#karakter">
+                        Karakter
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-daftar px-3" href="#">
+                        Daftar
+                    </a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="btn btn-primary px-3" href="#">
+                        Masuk
+                    </a>
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+</nav>
+
+
+<!-- HERO -->
+<section class="py-5">
+    <div class="container py-lg-5">
+
+        <div class="row align-items-center g-5">
+
+            <!-- TEXT -->
+            <div class="col-lg-7">
+
+                <h1 class="hero-title mb-2">
+                    Komik Legendaris Webtoon
+                </h1>
+
+                <h2 class="hero-subtitle mb-4">
+                    TOWER OF GOD
+                </h2>
+
+                <p class="hero-text mb-3">
+                    Tower Of God adalah manhwa Korea Selatan populer
+                    yang ditulis dan diilustrasikan oleh S.I.U.
+                    Ceritanya berpusat pada Bam ke-25, seorang pemuda
+                    yang hidup di bawah tanah bersama teman dekatnya,
+                    Rachel.
+                </p>
+
+                <p class="hero-text mb-4">
+                    Ketika Rachel meninggalkannya untuk mendaki Menara
+                    misterius, Bam nekat memasuki Menara demi menyusulnya.
+                    Di dalam Menara, siapa pun yang berhasil mencapai
+                    puncak dipercaya bisa mendapatkan apa pun yang mereka
+                    inginkan.
+                </p>
+
+                <a href="#" class="btn btn-tower px-4 py-2">
+                    Baca Disini!
+                </a>
+
+            </div>
+
+            <!-- IMAGE -->
+            <div class="col-lg-5">
+
+                <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQAeBKOE-FaOL8t1R1kPt5u8mcHY3IenYwHhhNxynDepQ&s=10%22"
+                    class="hero-img"
+                    alt="Tower of God"
+                >
+
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+<!-- KARAKTER -->
+<section id="karakter" class="py-5">
+
+    <div class="container">
+
+        <h2 class="section-title text-center mb-5">
+            Karakter Utama
+        </h2>
+
+        <div class="row g-4">
+
+            <!-- BAAM -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="card character-card h-100">
+
+                    <img
+                        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOWXQdGrAkHWjesqDf2Ir2xyxWukfYBBomgWYV3QRGVg&s=10"
+                        class="card-img-top"
+                        alt="Twenty-Fifth Baam"
+                    >
+
+                    <div class="card-body text-center p-4">
+
+                        <h3 class="card-title mb-3">
+                            Twenty-Fifth Baam
+                        </h3>
+
+                        <p class="card-text">
+                            Twenty-Fifth Baam adalah seorang Irregular
+                            yang memasuki Menara demi menyusul Rachel.
+                            Perjalanannya membuatnya berkembang menjadi
+                            salah satu karakter terkuat di Menara.
+                        </p>
+
+                        <a href="#" class="btn btn-tower px-4">
+                            Info
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- KHUN -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="card character-card h-100">
+
+                    <img
+                        src="https://cdn.theouterhaven.net/wp-content/uploads/2020/06/khun-aguero-agnis-tower-of-god-anime-uhdpaper.com-4K-7.1948-wp.thumbnail.jpg"
+                        class="card-img-top"
+                        alt="Khun Aguero Agnis"
+                    >
+
+                    <div class="card-body text-center p-4">
+
+                        <h3 class="card-title mb-3">
+                            Khun Aguero Agnis
+                        </h3>
+
+                        <p class="card-text">
+                            Khun Aguero Agnis adalah seorang bangsawan
+                            yang cerdas dan ahli strategi. Ia menjadi
+                            salah satu teman terdekat Baam dan sering
+                            membantu kelompoknya.
+                        </p>
+
+                        <a href="#" class="btn btn-tower px-4">
+                            Info
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- RAK -->
+            <div class="col-lg-4 col-md-6">
+
+                <div class="card character-card h-100">
+
+                    <img
+                        src="https://images8.alphacoders.com/138/1380798.png"
+                        class="card-img-top"
+                        alt="Rak Wraithraiser"
+                    >
+
+                    <div class="card-body text-center p-4">
+
+                        <h3 class="card-title mb-3">
+                            Rak Wraithraiser
+                        </h3>
+
+                        <p class="card-text">
+                            Rak Wraithraiser adalah seorang prajurit
+                            yang memiliki sifat buas dan impulsif.
+                            Ia memiliki hubungan persahabatan yang
+                            kuat dengan Baam dan Khun.
+                        </p>
+
+                        <a href="#" class="btn btn-tower px-4">
+                            Info
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- Bootstrap JS -->
+<script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js">
+</script>
+
+</body>
+</html>
